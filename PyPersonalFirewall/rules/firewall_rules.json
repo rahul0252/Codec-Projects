@@ -1,0 +1,44 @@
+[
+    {
+        "direction": "OUT",
+        "protocol": "tcp",
+        "port": 80,
+        "action": "BLOCK"
+    },
+    {
+        "direction": "OUT",
+        "protocol": "udp",
+        "port": 80,
+        "action": "BLOCK"
+    },
+    {
+        "direction": "IN",
+        "protocol": "udp",
+        "port": 80,
+        "action": "ALLOW"
+    },
+    {
+        "direction": "OUT",
+        "protocol": "udp",
+        "port": 80,
+        "action": "ALLOW"
+    },
+    {
+        "direction": "IN",
+        "protocol": "udp",
+        "port": 80,
+        "action": "ALLOW"
+    },
+    {
+        "direction": "OUT",
+        "protocol": "udp",
+        "port": 80,
+        "action": "ALLOW"
+    },
+    {
+        "direction": "OUT",
+        "protocol": "tcp",
+        "port": 80,
+        "action": "ALLOW"
+    }
+]
